@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8"/>
+        <meta name = "author" content = "Kabindra Lama"/>
+        <title>Lama Travels</title>
+        <link href = "styles.css" rel = "stylesheet" type = "text/css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"/>
+    </head>
+    <body>
+        <div class = "container">
+            <table>
+                <tr>
+                    <td width = "20%">
+                        <img src = "images/hello1.png" class = "logo"/>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Search.." class = "searchbox"/>
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                    </td>
+                    <td width = "20%" align = "right">
+                        <button class="button1"><i class="fa-solid fa-grip-lines"></i>&nbsp;&nbsp;<i class="fa-solid fa-user"></i></button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <nav>
+            <ul class = "align">
+                <li class = "font"><a href = "explore.html">Explore</a></li>
+                <li class = "font"><a href = "#">About Us</a></li>
+                <li class = "font"><a href = "#">Packages</a></li>
+                <li class = "font"><a href = "#">Hotels</a></li>
+                <li class = "font"><a href = "#">Portfolio</a></li>
+                <li class = "font"><a href = "#">Flights</a></li>
+                <li class = "font"><a href = "#">Contact</a></li>
+            </ul>
+        </nav>
+        <table background = "images/bg.jpg" width = "100%" border = "0" width = "100%" class = "align" style = "padding-top: 5%; padding-bottom: 5%;">
+            <tr>
+                <td width = "30%" valign = "top">
+                </td>
+                <td><form method = "POST" action = " " name = "login" enctype = "multipart/form-data" class = "font1">
+                    <fieldset>
+                        <legend>REGISTER</legend>
+                    <label>USERNAME</label><br/>
+                    <input type = "text" name = "username" placeholder = "Username" required class = "textarea"/>
+                    <br/><br/>
+                    <label>PASSWORD</label><br/>
+                    <input type = "password" name = "password" placeholder = "Password" required class = "textarea"/>
+                    <br/><br/>
+                    <label>E-MAIL</label><br/>
+                    <input type = "email" name = "e-mail" placeholder = "E-Mail" required class = "textarea"/>
+                    <br/><br/>
+                    <label>DOB</label><br/>
+                    <input type = "date" name = "DOB" placeholder = "DOB" required class = "textarea"/>
+                    <br/><br/>
+                    <label>GENDER</label><br/>
+                    <input type = "radio" name = "Male" placeholder = "Male" required />
+                    <label>Male</label>
+                    <input type = "radio" name = "Female" placeholder = "Female" required/>
+                    <label>Female</label>
+                    <input type = "radio" name = "Non-Binary" placeholder = "Non-Binary" required/>
+                    <label>Non-Binary</label>
+                    <input type = "radio" name = "Others" placeholder = "Others" required/>
+                    <label>Others</label>
+                    <br/><br/>
+                    <label>PHOTO</label>
+                    <br/>
+                    <input type = "file" name = "photo"/>
+                    <br/><br/>
+                    <label>CITY</label>
+                    <br/>
+                    <select name = "city" size = "1">
+                        <option value = "--">--Please Choose--</option>
+                        <option value = "KTM">Kathmandu</option>
+                        <option value = "NYC">New York City</option>
+                        <option value = "LDN">London</option>
+                        <option value = "SDY">Sydney</option>
+                        <option value = "OTH">Others</option>
+                    </select>
+                    <br/><br/>
+                    <label>MESSAGE</label><br/>
+                    <textarea rows = "7" cols = "50" name = "message" class = "textarea"></textarea>
+                    <br/><br/>
+                    <input type = "button" value = "Register Now" class = "button2"/>
+                    <input type = "button" value = "Cancel" class = "button2"/>
+                    </fieldset>
+                </form>
+                <td width = "30%" valign = "top">
+                </td>
+            <td></td>
+            </tr>
+        </table> 
+
+            <footer>
+                <div class = "footer1">
+                    <table>
+                        <tr>
+                            <td width = "5%"></td>
+                            <td width = "30%">
+                                <h1 class = "font"><strong>Contact</strong></h1>
+                                <p class = "font" style = "line-height: 2; font-size: 15px;" >
+                                    LAMA TRAVELS <br/>
+                                    Gurung Tole, Kapan <br/>
+                                    Kathmandu, Nepal
+                                </p>
+                            </td>
+                            <td width = "30%">
+                                <p class = "font" style = "line-height: 2; font-size: 15px;">
+                                    <br/><br/>
+                                    Tel +977 9864 1181 74 <br/>
+                                    Email: info@lamatravels.com <br/>
+                                    Book A Consultation <br/>
+                                </p>
+                            </td>
+                            <td width = "30%">
+                                <p class = "font" style = "line-height: 2; font-size: 15px;" >
+                                    <br/>
+                                    &nbsp;&nbsp;&nbsp;Subscribe to my newsletter
+                                    <input type="text" placeholder="Enter your email here*" class = "news"/>
+                                    &nbsp;&nbsp;&nbsp;
+                                    <input type = "button" value = "Join" class = "joinbutton">
+                                </p>
+                            </td>
+                            <td width = "5%"></td>
+                        </tr>
+                </table>
+            </div>
+        </footer>
+    </body>
+</html>
