@@ -1,0 +1,406 @@
+.logo
+{
+    height: 50%;
+    width: 50%;
+}
+
+ul
+{
+    padding: 0; list-style: none;
+    background: #333;
+}
+
+ul li
+{
+    display: inline-block;
+}
+
+ul li a
+{
+    display: block;
+    padding: 10px 25px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul li a:hover
+{
+    color: #fff;
+    background: #fc5603
+}
+
+.align
+{
+    text-align: center;
+}
+
+.container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container p
+{
+    line-height: 50px;
+}
+
+.button
+{
+    background-color: #fc5603;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    border-radius: 30px;
+    position: absolute;
+    top: 70%;
+    left: 18%;
+}
+
+.scrollbox
+{
+    overflow: auto;
+    width: 250px;
+    height: 300px;
+    border: 2px solid #ff0000;
+}
+
+.image
+{
+    height: 720px;
+    width: 720px;
+}
+
+.searchbox
+{
+    width: 100%;
+    max-width: 600px;
+    display: inline-block;
+    align-items: center;
+    border-radius: 60px;
+    padding:  15px 20px;
+}
+
+.searchButton
+{
+    width: 30px;
+}
+
+.text
+{
+    position: absolute;
+    top: 62%;
+    left: 10%;
+}
+
+.font
+{
+    font-family: Poppins;
+}
+
+.icon
+{
+    background-color: #fc5603;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    border-radius: 30px;
+    position: absolute;
+    top: 70%;
+    left: 18%;
+}
+
+.footer
+{
+    position: relative;
+    margin-top: 1080px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 1350;
+    background-color: #333;
+    color: white;
+    padding-left: 60px;
+}
+
+.news
+{
+    width: 100%;
+    max-width: 300px;
+    display: inline-block;
+    align-items: center;
+    border-radius: 60px;
+    padding:  10px 20px;
+}
+
+.joinbutton
+{
+    background-color: #fc5603;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 30px;
+    position: absolute;
+}
+
+.button1 {
+    background-color: #fc5603;
+    border: none;
+    border-radius: 60px;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .h1
+  {
+      width: 1409px;
+      position: absolute;
+      top: 119%;
+      background-color: lightgrey;
+      padding-bottom: 2%;
+  }
+
+  .destination
+  {
+      position: relative;
+      width: 20%;
+      height: 20%;
+      padding-left: 4%;
+      padding-bottom: 4%;
+      display: inline-block;
+  }
+
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+    padding-left: 5%;
+    color: white;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    top: 100%;
+    border-radius: 5%;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 130px;
+    box-shadow: 0px 8px 16px 0px gray;
+  }
+  
+  .dropdown-content a {
+    font-family: Poppins;
+    text-align: left;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+
+  .button2
+{
+    background-color: #fc5603;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+.destination1
+  {
+      width: 20%;
+      height: 20%;
+      padding-left: 4%;
+      border-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+
+  .bottom-left {
+      font-family: Poppins;
+    position: absolute;
+    font-size: 35px;
+    color: white;
+    line-height: 40px;
+  }
+
+  .footer1
+{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 1350px;
+    background-color: #333;
+    color: white;
+    padding-left: 60px;
+}
+
+.square {
+    height: 500px;
+    width: 700px;
+    background-color: lightgrey;
+    padding-left: 10%;
+    padding-top: 15%;
+    padding-bottom: 7%;
+    padding-right: 15%;
+    right: 20%;
+  }
+
+.traveler
+{
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    right: 120px;
+    top: 300px;
+}
+
+.textarea
+{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: transparent;
+    font-family: Poppins;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+    width: 400px;
+}
+
+.font1
+{
+    font-family: Poppins;
+    font-size: 18px;
+    color: white;
+}
+
+.hotel
+{
+    background-color: transparent;
+    border: 0;
+    font-family: Poppins;
+}
+
+.hotel a
+{
+    display: block;
+    padding: 10px 25px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0;
+}
+
+.hotel a :hover
+{
+    color: #fff;
+    background: #fc5603
+}
+
+.square1 {
+    width: 200px;
+    height: auto;
+    background-color: #333;
+    padding-left: 135px;
+    padding-top: 101px;
+    padding-bottom: 322px;
+    padding-right: 10%;
+    left: 932px;
+    position: relative;
+    bottom: 98px;
+  }
+
+  .square2 {
+    width: 200px;
+    height: auto;
+    background-color: lightgrey;
+    padding-left: 10%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    padding-right: 10%;
+    left: 430px;
+    position: relative;
+    bottom: 520px;
+  }
+
+  .location
+  {
+      width: 413px;
+      height: auto;
+      position: relative;
+    bottom: 943px;
+  }
+
+  .contact
+  {
+      position: absolute;
+      left: 100px;
+      bottom: 120px;
+  }
+
+  .contact1
+  {
+      position: absolute;
+      left: 100px;
+      bottom: 120px;
+      top: 70px;
+      color: white;
+  }
+
+  .bgtext
+  {
+      position: absolute;
+      top: 400px;
+      text-align: center;
+    font-size: 58px;
+    padding-left: 40px;
+    color: white;
+  }
+
+
+
+.footercontent
+{
+    text-align: center;
+    position: relative;
+    left: -70px;
+}
+
+.center {
+    display: block;
+    padding-left: 30%;
+    padding-right: 30%;
+    width: 720px;
+    height: auto;
+  }
+
+  
